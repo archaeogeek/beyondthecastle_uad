@@ -2,7 +2,6 @@
 
 Archaeological and historical data for the centre of Lancaster, provided using web services and protocols for [http://www.beyondthecastle.org/hacklancaster/](http://www.beyondthecastle.org/hacklancaster/)
 
-
 ----
 
 Creative Commons Attribution 4.0 International.
