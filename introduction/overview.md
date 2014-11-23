@@ -17,11 +17,11 @@ The following key data sources are available from the Lancaster Urban Archaeolog
 
 Supporting information is available on the following sources:
 
-* Event Images- historic photos or paintings that depict monuments
-* Fieldworkers- the person responsible for an event (eg running an archaeological dig)
-* Bibliography- text references to reports relating to events and monuments
-* Cellars- which buildings have cellars
-* Listed Buildings- which buildings are listed
+* **Event Images**- historic photos or paintings that depict monuments
+* **Fieldworkers**- the person responsible for an event (eg running an archaeological dig)
+* **Bibliography**- text references to reports relating to events and monuments
+* **Cellars**- which buildings have cellars
+* **Listed Buildings**- which buildings are listed
 * Various lookup tables deciphering the terminology used to describe the events and monuments, such as phase, positional and date precision and so on (see section on terminology for information on this)
 
 ## Terminology
