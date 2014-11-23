@@ -10,6 +10,12 @@ This outputs data in the following coordinate systems:
 * **EPSG:4326** (Global Latitude/Longitude)
 * **EPSG:900913** (Spherical Mercator)
 
+The available output formats are listed in the GetCapabilities response.
+
+An example request, to download the mons_point layer in excel format would be as follows:
+
+     http://lancasteruad.oxfordarchaeology.com:8080/geoserver/uad/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=uad:mons_points&outputFormat=excel
+
 The following layers are available:
 
 * **cellars**: point data of Lancaster Buildings showing presence or absence of cellars
