@@ -2,7 +2,7 @@
 
 The following interfaces are available for working with the data from the Lancaster Urban Archaeological Database:
 
-* Web Mapping Services (WMS)- useful for getting at raster-based layers, uch as base mapping,for use in spatial applications
+* Web Mapping Services (WMS)- useful for getting at raster-based layers, such as base mapping, for use in spatial applications
 * Web Feature Services (WFS)- useful for getting at vector-based layers for use in spatial applications
 * REST- useful for getting text-based information about database tables
 * PGREST- useful for getting text-based information from spatial database tables, and performing spatial queries
