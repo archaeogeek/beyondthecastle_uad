@@ -23,6 +23,7 @@ Supporting information is available on the following sources:
 * **Cellars**- which buildings have cellars
 * **Listed Buildings**- which buildings are listed
 * Various lookup tables deciphering the terminology used to describe the events and monuments, such as phase, positional and date precision and so on (see section on terminology for information on this)
+* **geophys** - a small area of geophysical survey close to the castle
 
 ## Terminology
 
