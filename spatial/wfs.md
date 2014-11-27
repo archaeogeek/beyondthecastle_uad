@@ -26,6 +26,7 @@ The following layers are available:
 * **mons_point**: point dataset representing historic or archaeological monuments
 * **monspres_polys**: polygon dataset representing definite monument outlines, eg extant or exposed by archaeological events
 * **monsint_polys**: proposed outlines of monuments based on information from archaeological research, events and other information
+* **geophys**: contour lines from geophysical survey
 
 
 

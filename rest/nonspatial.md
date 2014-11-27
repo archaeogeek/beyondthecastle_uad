@@ -18,6 +18,7 @@ You can get information on, or query the following tables in the database:
 * **mons_point**: dataset representing historic or archaeological monuments - point
 * **monspres_polys**: dataset representing definite monument outlines, eg extant or exposed by archaeological events - multipolygon
 * **monsint_polys**: proposed outlines of monuments based on information from archaeological research, events and other information - multipolygon
+* * **geophys**: contour lines from geophysical survey - line (note this data has no attributes so might be best as base mapping)
 
 ###Non-Spatial###
 
