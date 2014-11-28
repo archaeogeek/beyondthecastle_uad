@@ -22,9 +22,14 @@ The **ws_geo_listlayers** endpoint will provide you with this list in json forma
 
     http://lancasteruad.oxfordarchaeology.com/pgrest/v1/ws_geo_listlayers.php
 
-### Getting information on a table
+### Getting information on a table ###
 
 The **ws_listfields** endpoint will provide information on the fields/columns for a particular table in json format. Call it like so:
 
     http://lancasteruad.oxfordarchaeology.com/pgrest/v1/ws_listfields.php?table=tablename
 
+### Performing a spatial query ###
+
+PGRest assumes that the coordinate system (srid) is EPSG:4326 and that the geometry column (geometryfield) is called the_geom. This is incorrect for the Lancaster UAD- so you will need to explicitly state the srid and geometry_field whenever you do a spatial query. The URL below shows the correct format to use:
+    
+    http://lancasteruad.oxfordarchaeology.com/pgrest/v1/ws_geo_getextent.php?table=monsint_polys&srid=27700&geometryfield=wkb_geometry

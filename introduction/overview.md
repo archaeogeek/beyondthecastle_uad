@@ -14,6 +14,7 @@ The following key data sources are available from the Lancaster Urban Archaeolog
 * Historic Mapping- georeferenced scans of historic maps of Lancaster
 * Monument Data- information about historic or archaeological monuments
 * Event Data- information about historic or archaeological events that have lead to the discovery of monuments
+* Some events have imagery available, such as plans or paintings.
 
 Supporting information is available on the following sources:
 

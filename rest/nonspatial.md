@@ -10,11 +10,13 @@ You can get information on, or query the following tables in the database:
 
 ###Spatial###
 
+Note that querying the spatial data using rest will display the geometry of the table or record in well-known binary format.
+
 * **cellars**: dataset of Lancaster Buildings showing presence or absence of cellars - point
 * **studyarea**: study area boundary of Lancaster Urban Archaeological Database project - multipolygon
 * **listed_polys**: boundaries of listed buildings - multipolygon
-* **event_points**: dataset representing historic or archaeological events - point
-* **event_polys**: dataset representing the outline of events such as archaeological digs - multipolygon
+* **event_points_full**: dataset representing historic or archaeological events - point. The Image_Hyperlink column may contain hyperlinks to historic imagery.
+* **event_polys**: dataset representing the outline of events such as archaeological digs - multipolygon. The image column may contain a hyperlink to imagery.
 * **mons_point**: dataset representing historic or archaeological monuments - point
 * **monspres_polys**: dataset representing definite monument outlines, eg extant or exposed by archaeological events - multipolygon
 * **monsint_polys**: proposed outlines of monuments based on information from archaeological research, events and other information - multipolygon
@@ -22,10 +24,10 @@ You can get information on, or query the following tables in the database:
 
 ###Non-Spatial###
 
-**These are the principle tables in the database where the majority of information was stored**
+**These are the principle tables in the database where the majority of information is stored**
 * **tblBibliography** - bibliographic references used for events and monuments
 * **tblDeposits** - deposits identified for use in deposit model
-* **tblEvents** - archaeological events
+* **tblEvents** - archaeological events. The Image_Hyperlink column may contain hyperlinks to historic imagery.
 * **tblEventsBibliography** - joins events (by Recevent_Number) and bibliographic records (by UAD_BIB_Number)
 * **tblEventsMonuments** - joins events (by Recevent_Number) and Monuments (by Monument_Number)
 * **tblExternalRefs_Events** - lists identifying codes or names for events in other databases
