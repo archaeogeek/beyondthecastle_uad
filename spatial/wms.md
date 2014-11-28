@@ -2,7 +2,7 @@
 
 The Web-Mapping Services (WMS) interface is supplied by a geoserver instance and can be reached at the following GetCapabilities URL:
 
-    http://lancasteruad.oxfordarchaeology.com:8080/geoserver/uad/wms?service=WMS&version=1.3.0&request=GetCapabilities
+    http://lancasteruadgeo.oxfordarchaeology.com/geoserver/uad/wms?service=WMS&version=1.3.0&request=GetCapabilities
 
 This outputs data in the following coordinate systems:
 
