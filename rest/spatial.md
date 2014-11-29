@@ -11,9 +11,9 @@ All spatial tables are in EPSG:27700 (British National Grid). Their geometry typ
 * **cellars**: dataset of Lancaster Buildings showing presence or absence of cellars - point
 * **studyarea**: study area boundary of Lancaster Urban Archaeological Database project - multipolygon
 * **listed_polys**: boundaries of listed buildings - multipolygon
-* **event_points**: dataset representing historic or archaeological events - point
+* **event_points_full**: dataset representing historic or archaeological events - point
 * **event_polys**: dataset representing the outline of events such as archaeological digs - multipolygon
-* **mons_point**: dataset representing historic or archaeological monuments - point
+* **mons_points_full**: dataset representing historic or archaeological monuments - point
 * **monspres_polys**: dataset representing definite monument outlines, eg extant or exposed by archaeological events - multipolygon
 * **monsint_polys**: proposed outlines of monuments based on information from archaeological research, events and other information - multipolygon
 * **geophys**: contour lines from geophysical survey - line (note this data has no attributes so might be best as base mapping)

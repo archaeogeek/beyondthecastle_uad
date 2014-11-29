@@ -34,3 +34,12 @@ LIDAR data is available as both unprocessed (with buildings) and unprocessed (wi
 * **lidar_processed_2m**
 * **lidar_unprocessed_25cm**
 * **lidar_unprocessed_2m**
+
+Reference on using WMS can be found at:
+
+    http://en.wikipedia.org/wiki/Web_Map_Service
+
+A sample GetMap request is as follows (use the GetCapabilities request to find out the available layers and output formats):
+
+    http://lancasteruadgeo.oxfordarchaeology.com/geoserver/uad/wms?service=WMS&version=1.1.0&request=GetMap&layers=uad:Clarke1807&styles=&bbox=347195.2852705703,460963.365584321,348158.27652011556,462471.0608549123&width=327&height=512&srs=EPSG:27700&format=image%2Fjpeg
+
