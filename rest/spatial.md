@@ -30,6 +30,8 @@ The **ws_listfields** endpoint will provide information on the fields/columns fo
 
 ### Performing a spatial query ###
 
-PGRest assumes that the coordinate system (srid) is EPSG:4326 and that the geometry column (geometryfield) is called the_geom. This is incorrect for the Lancaster UAD- so you will need to explicitly state the srid and geometry_field whenever you do a spatial query. The URL below shows the correct format to use:
+PGRest assumes that the coordinate system (srid) is EPSG:4326 and that the geometry column (geometryfield) is called the_geom. This is incorrect for the Lancaster UAD- so you will need to explicitly state the srid and geometry_field whenever you do a spatial query. The URLs below show the correct format to use:
     
     http://lancasteruad.oxfordarchaeology.com/pgrest/v1/ws_geo_getextent.php?table=monsint_polys&srid=27700&geometryfield=wkb_geometry
+
+    http://lancasteruad.oxfordarchaeology.com/pgrest/v1/ws_geo_getcentroid.php?table=monspres_polys&srid=4326&geometryfield=wkb_geometry&parameters=monid=%27531%27

@@ -15,6 +15,8 @@ The following key data sources are available from the Lancaster Urban Archaeolog
 * Monument Data- information about historic or archaeological monuments
 * Event Data- information about historic or archaeological events that have lead to the discovery of monuments
 * Some events have imagery available, such as plans or paintings.
+* Geophysical Data
+* LIDAR Data- detailed height data available unprocessed (with buildings) and processed (with the buildings removed)
 
 Supporting information is available on the following sources:
 
@@ -24,7 +26,8 @@ Supporting information is available on the following sources:
 * **Cellars**- which buildings have cellars
 * **Listed Buildings**- which buildings are listed
 * Various lookup tables deciphering the terminology used to describe the events and monuments, such as phase, positional and date precision and so on (see section on terminology for information on this)
-* **geophys** - a small area of geophysical survey close to the castle
+* **Geophys** - a small area of geophysical survey close to the castle
+*  **LIDAR** - LIDAR survey of Vicarage Fields area, available unprocessed (with buildings) or unprocessed (with buildings removed)
 
 ## Terminology
 

@@ -28,3 +28,9 @@ The following historic base maps are available:
 There is also a small area of Geophysical survey available, which is very detailed line data but has no attributes, so may work better as WMS:
 
 * **geophys**
+
+LIDAR data is available as both unprocessed (with buildings) and unprocessed (without buildings) and in 25cm and 2m resolution:
+* **lidar_processed_25cm**
+* **lidar_processed_2m**
+* **lidar_unprocessed_25cm**
+* **lidar_unprocessed_2m**
