@@ -7,3 +7,4 @@ Workshop Summary
 * [Web Feature Services](spatial/wfs.md)
 * [REST](rest/nonspatial.md)
 * [PGREST](rest/spatial.md)
+* [Other APIs](other/apis.md)
