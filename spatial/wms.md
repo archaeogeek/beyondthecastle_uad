@@ -35,9 +35,7 @@ LIDAR data is available as both unprocessed (with buildings) and unprocessed (wi
 * **lidar_unprocessed_25cm**
 * **lidar_unprocessed_2m**
 
-Reference on using WMS can be found at:
-
-    http://en.wikipedia.org/wiki/Web_Map_Service
+Reference on using WMS can be found at [http://en.wikipedia.org/wiki/Web_Map_Service](http://en.wikipedia.org/wiki/Web_Map_Service)
 
 A sample GetMap request is as follows (use the GetCapabilities request to find out the available layers and output formats):
 
