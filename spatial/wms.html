@@ -1,0 +1,331 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Web Mapping Services | Beyond the Castle HackLancaster- Lancaster Urban Archaeological Database</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.3.1">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    <link rel="next" href="../spatial/wfs.html" />
+    
+    
+    <link rel="prev" href="../introduction/overview.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book" data-level="2" data-basepath=".." data-revision="1417340778413">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="introduction/overview.html">
+            
+                
+                    <a href="../introduction/overview.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         Overview
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="2" data-path="spatial/wms.html">
+            
+                
+                    <a href="../spatial/wms.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         Web Mapping Services
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="spatial/wfs.html">
+            
+                
+                    <a href="../spatial/wfs.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         Web Feature Services
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4" data-path="rest/nonspatial.html">
+            
+                
+                    <a href="../rest/nonspatial.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                         REST
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5" data-path="rest/spatial.html">
+            
+                
+                    <a href="../rest/spatial.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                         PGREST
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6" data-path="other/apis.html">
+            
+                
+                    <a href="../other/apis.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                         Other APIs
+                    </a>
+                
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Beyond the Castle HackLancaster- Lancaster Urban Archaeological Database</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_8">
+                    
+                        <h1 id="web-mapping-services">Web Mapping Services</h1>
+<p>The Web-Mapping Services (WMS) interface is supplied by a geoserver instance and can be reached at the following GetCapabilities URL:</p>
+<pre><code>http://lancasteruadgeo.oxfordarchaeology.com/geoserver/uad/wms?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities
+</code></pre><p>This outputs data in the following coordinate systems:</p>
+<ul>
+<li><strong>EPSG:27700</strong> (British National Grid)</li>
+<li><strong>EPSG:4326</strong> (Global Latitude/Longitude)</li>
+<li><strong>EPSG:900913</strong> (Spherical Mercator)</li>
+</ul>
+<p>The following modern base maps are available:</p>
+<ul>
+<li><strong>osopen</strong>: Ordnance Survey, based on Vector Map District</li>
+<li><strong>osopenbw</strong>: Ordnance Survey grayscale, based on Vector Map District</li>
+<li><strong>osopenraster</strong>: Ordnance Survey, based on Street View</li>
+<li><strong>osopenrasterbw</strong>: Ordnance Survey grayscale, based on Street View</li>
+</ul>
+<p>The following historic base maps are available:</p>
+<ul>
+<li><strong>Docton1684</strong>: Kenneth Docton&#39;s map of Lancaster, 1684</li>
+<li><strong>Mackreth1778</strong>: Stephen Mackreth&#39;s &quot;Plan of the town of Lancaster&quot;, 1778</li>
+<li><strong>Clarke1807</strong>: Christopher Clark&#39;s &quot;A plan of the town of Lancaster&quot;, 1807</li>
+<li><strong>Baines1824</strong>: Edward Baines&#39; &quot;Plan of Lancaster&quot;, 1824</li>
+<li><strong>OS_1_25</strong>: Ordnance Survey 1st Edition 25 inch, 1893</li>
+</ul>
+<p>There is also a small area of Geophysical survey available, which is very detailed line data but has no attributes, so may work better as WMS:</p>
+<ul>
+<li><strong>geophys</strong></li>
+</ul>
+<p>LIDAR data is available as both unprocessed (with buildings) and unprocessed (without buildings) and in 25cm and 2m resolution:</p>
+<ul>
+<li><strong>lidar_processed_25cm</strong></li>
+<li><strong>lidar_processed_2m</strong></li>
+<li><strong>lidar_unprocessed_25cm</strong></li>
+<li><strong>lidar_unprocessed_2m</strong></li>
+</ul>
+<p>Reference on using WMS can be found at <a href="http://en.wikipedia.org/wiki/Web_Map_Service" target="_blank">http://en.wikipedia.org/wiki/Web_Map_Service</a></p>
+<p>A sample GetMap request is as follows (use the GetCapabilities request to find out the available layers and output formats):</p>
+<pre><code>http://lancasteruadgeo.oxfordarchaeology.com/geoserver/uad/wms?service=WMS&amp;version=1.1.0&amp;request=GetMap&amp;layers=uad:Clarke1807&amp;styles=&amp;bbox=347195.2852705703,460963.365584321,348158.27652011556,462471.0608549123&amp;width=327&amp;height=512&amp;srs=EPSG:27700&amp;format=image%2Fjpeg
+</code></pre><p><strong>NOTE: if you experience problems displaying the base maps, change the request to use WMS version 1.1.0 rather than 1.3.0</strong></p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../introduction/overview.html" class="navigation navigation-prev " aria-label="Previous page: Overview"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../spatial/wfs.html" class="navigation navigation-next " aria-label="Next page: Web Feature Services"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

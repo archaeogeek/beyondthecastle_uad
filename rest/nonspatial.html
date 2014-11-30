@@ -1,0 +1,364 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>REST | Beyond the Castle HackLancaster- Lancaster Urban Archaeological Database</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.3.1">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    <link rel="next" href="../rest/spatial.html" />
+    
+    
+    <link rel="prev" href="../spatial/wfs.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book" data-level="4" data-basepath=".." data-revision="1417340778413">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="introduction/overview.html">
+            
+                
+                    <a href="../introduction/overview.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         Overview
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2" data-path="spatial/wms.html">
+            
+                
+                    <a href="../spatial/wms.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         Web Mapping Services
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="spatial/wfs.html">
+            
+                
+                    <a href="../spatial/wfs.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         Web Feature Services
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="4" data-path="rest/nonspatial.html">
+            
+                
+                    <a href="../rest/nonspatial.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                         REST
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5" data-path="rest/spatial.html">
+            
+                
+                    <a href="../rest/spatial.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                         PGREST
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6" data-path="other/apis.html">
+            
+                
+                    <a href="../other/apis.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                         Other APIs
+                    </a>
+                
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Beyond the Castle HackLancaster- Lancaster Urban Archaeological Database</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_5">
+                    
+                        <h2 id="non-spatial-rest">Non-Spatial REST</h2>
+<p>Non-Spatial RESTful services are provided by <a href="https://github.com/alixaxel/ArrestDB" target="_blank">ArrestDB</a> and can be accessed at <a href="http://lancasteruad.oxfordarchaeology.com/rest/index.php" target="_blank">http://lancasteruad.oxfordarchaeology.com/rest/index.php</a>. To access a particular table, use the form:</p>
+<pre><code>http://lancasteruad.oxfordarchaeology.com/rest/index.php/tablename
+</code></pre><p>See <a href="https://github.com/alixaxel/ArrestDB" target="_blank">https://github.com/alixaxel/ArrestDB</a> for information on how to use this.</p>
+<p>You can get information on, or query the following tables in the database:</p>
+<h3 id="spatial">Spatial</h3>
+<p>Note that querying the spatial data using rest will display the geometry of the table or record in well-known binary format.</p>
+<ul>
+<li><strong>cellars</strong>: dataset of Lancaster Buildings showing presence or absence of cellars - point</li>
+<li><strong>studyarea</strong>: study area boundary of Lancaster Urban Archaeological Database project - multipolygon</li>
+<li><strong>listed_polys</strong>: boundaries of listed buildings - multipolygon</li>
+<li><strong>event_points_full</strong>: dataset representing historic or archaeological events - point. The Image_Hyperlink column may contain hyperlinks to historic imagery.</li>
+<li><strong>event_polys</strong>: dataset representing the outline of events such as archaeological digs - multipolygon. The image column may contain a hyperlink to imagery.</li>
+<li><strong>mons_point</strong>: dataset representing historic or archaeological monuments - point</li>
+<li><strong>monspres_polys</strong>: dataset representing definite monument outlines, eg extant or exposed by archaeological events - multipolygon</li>
+<li><strong>monsint_polys</strong>: proposed outlines of monuments based on information from archaeological research, events and other information - multipolygon</li>
+<li><strong>geophys</strong>: contour lines from geophysical survey - line (note this data has no attributes so might be best as base mapping)</li>
+</ul>
+<h3 id="non-spatial">Non-Spatial</h3>
+<p><strong>These are the principle tables in the database where the majority of information is stored</strong></p>
+<ul>
+<li><strong>tblBibliography</strong> - bibliographic references used for events and monuments</li>
+<li><strong>tblDeposits</strong> - deposits identified for use in deposit model</li>
+<li><strong>tblEvents</strong> - archaeological events. The Image_Hyperlink column may contain hyperlinks to historic imagery.</li>
+<li><strong>tblEventsBibliography</strong> - joins events (by Recevent_Number) and bibliographic records (by UAD_BIB_Number)</li>
+<li><strong>tblEventsMonuments</strong> - joins events (by Recevent_Number) and Monuments (by Monument_Number)</li>
+<li><strong>tblExternalRefs_Events</strong> - lists identifying codes or names for events in other databases</li>
+<li><strong>tblExternalRefs_Mon</strong> - lists identifying codes or names for monuments in other databases</li>
+<li><strong>tblFieldworkers</strong> - lists principle fieldworkers for archaeological events</li>
+<li><strong>tbl_mon_src</strong> - joins monuments (by Internal_cross_ref_mon) to bibliographic sources (by Internal_cross_ref_src)</li>
+<li><strong>tblMonumentDates</strong> - lists different phases of use for a monument</li>
+<li><strong>tblMonumentPeriods</strong> - lists periods in which a monument was extant</li>
+<li><strong>tblMonuments</strong> - monuments</li>
+<li><strong>tbl_monuments_listed</strong> - lists monuments that are listed buildings</li>
+<li><strong>tblParentEvents</strong> - lists events that comprise multiple smaller events such as large-scale archaeological investigations</li>
+<li><strong>tblParentEvents_events</strong> - links parent events (by UAD_parent_EventID) to events (by UAD_Event_Number)</li>
+<li><strong>tblSubMonuments</strong> - links collections of monuments together</li>
+</ul>
+<h3 id="lookups">Lookups</h3>
+<p><strong>These are descriptive tables, providing information on the terminology used in the tables above. Use them for reference only</strong></p>
+<ul>
+<li>tlkpArchiveTypes - lists different types of archaeological archive</li>
+<li>tlkpAreaStatus - lists different area designations with their abbreviation and full description </li>
+<li>tlkpAssocOrganisations - lists the different archaeologicl/historical organisations that have done work in Lancaster</li>
+<li>tlkpAuthorsRole - lists different types of role with the creation of an archaeological archive or publication</li>
+<li>tlkpBookTypes - lists the different types of publication</li>
+<li>tlkpCurrDate - lists different ways of referring to the current date</li>
+<li>tlkpDatePrecision - lists different ways of referring to a date or date range in the past such as &#39;between&#39;, &#39;post&#39;, &#39;pre&#39; etc</li>
+<li>tlkpDateTypes - lists different meanings for a date in the past, such as &#39;construction&#39;, &#39;disuse&#39;, &#39;use&#39; etc</li>
+<li>tlkpDepositHorizons - lists different ways of describing a deposit horizon such as &#39;bottom&#39;, &#39;top&#39;, &#39;water&#39; etc</li>
+<li>tlkpEventTypes - lists different types of archaeological event such as &#39;excavation&#39;, &#39;desk-based study&#39; etc</li>
+<li>tlkpevidence - lists the different types of archaeological evidents such as &#39;wreckage&#39;, &#39;building&#39;, &#39;cropmark&#39; etc</li>
+<li>tlkpExtInv - lists the different external inventories or databases that events and monuments may be listed in</li>
+<li>tlkpFieldworkerRole - lists the different roles a fieldworker may have in an archaeological investigation such as &#39;excavator&#39;, &#39;inspector&#39;, &#39;surveyor&#39;</li>
+<li>tlkpItemNoQualifiers - lists different methods of referring to quantities of archaeological items and their precise meaning</li>
+<li>tlkpItemTypes - lists different types of archaeological item such as &#39;artefact&#39;, &#39;ecofact&#39; etc</li>
+<li>tlkpMonDatePrecisions - lists different definitions of dates for time periods such as &#39;between&#39;, &#39;occasionally&#39;, &#39;throughout&#39;</li>
+<li>tlkpNatGridPrecision - lists the different levels of precision of a National Grid Reference, such as &#39;within 1m&#39;, &#39;within 10m&#39;, &#39;within 1km&#39; etc</li>
+<li>tlkpNGRQualifier - lists codes for determining what a Grid Reference actually refers to, such as the exact location of a find, the locality, the centre of a group of finds etc</li>
+<li>tlkpPeriods - lists the different time periods, their abbreviations, and their min and max dates where possible, such as &#39;Roman&#39;, &#39;Bronze Age&#39;, &#39;Post-Medieval&#39; etc</li>
+<li>tlkpScientificDates - lists the different methods of obtaining a scientific date such as radiocarbon dating</li>
+<li>tlkpStatusQualifier - lists different methods of describing a location relative to another event or monument, such as &#39;adjacent to&#39;, &#39;excluded from&#39; etc</li>
+<li>tlkp_Zconfidence - lists the level of confidence and the precision of any z (height) values</li>
+</ul>
+<h3 id="thesaurus">Thesaurus</h3>
+<p><strong>These are very specialist tables listing archaeological/historical terms and the relationships between them. Use them for reference only</strong></p>
+<ul>
+<li>THESAURUS_TERM_PREFERENCES - lists terms with their preferred terms</li>
+<li>THESAURUS_TERM_RELATION - lists related terms</li>
+<li>THESAURUS_TERMS - dictionary of archaeological/historic terms</li>
+<li>THESAURUS_TERM_USES - lists uses for terms</li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../spatial/wfs.html" class="navigation navigation-prev " aria-label="Previous page: Web Feature Services"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../rest/spatial.html" class="navigation navigation-next " aria-label="Next page: PGREST"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
