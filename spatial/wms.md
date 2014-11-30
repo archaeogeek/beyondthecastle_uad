@@ -41,3 +41,4 @@ A sample GetMap request is as follows (use the GetCapabilities request to find o
 
     http://lancasteruadgeo.oxfordarchaeology.com/geoserver/uad/wms?service=WMS&version=1.1.0&request=GetMap&layers=uad:Clarke1807&styles=&bbox=347195.2852705703,460963.365584321,348158.27652011556,462471.0608549123&width=327&height=512&srs=EPSG:27700&format=image%2Fjpeg
 
+**NOTE: if you experience problems displaying the base maps, change the request to use WMS version 1.1.0 rather than 1.3.0**
